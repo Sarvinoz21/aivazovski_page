@@ -1,8 +1,7 @@
 .home {
   text-align: center;
+  padding: 0 0 70px 0;
 }
-
-.container {}
 
 .home-title {
   font-size: 45px;
@@ -24,7 +23,7 @@
   object-fit: cover;
 }
 
-@media(max-width:400px) {
+@media(max-width:480px) {
   .home {
     text-align: left;
   }

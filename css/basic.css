@@ -29,3 +29,13 @@ a {
   max-width: 970px;
   padding: 0 15px;
 }
+
+.divider {
+  /* max-width: 420px;
+  width: 100%; */
+  width: min(420px, 100%);
+  background-color: var(--main-black);
+  border: none;
+  height: 1px;
+  margin: 0 auto;
+}
