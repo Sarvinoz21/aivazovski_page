@@ -54,6 +54,74 @@
         </nav>
       </div>
     </header>
+
+    <div class="mobile-navigation">
+      <label for="toggler-id" aria-label="open -close mobile-navigation menu">
+        <svg class="mobile-navigation-burger" aria-label="burger icon">
+          <use href="img/webp/sprites.svg#burger-icon"></use>
+        </svg>
+      </label>
+      <input
+        type="checkbox"
+        id="toggler-id"
+        class="mobile-navigation-toggler"
+      />
+
+      <nav class="mobile-navigation-menu" aria-label="mob header navigation">
+        <ul class="mobile-navigation-list" aria-label="mob navigation list">
+          <li>
+            <a
+              href="#home-id"
+              class="mobile-navigation-link"
+              aria-label="link to home"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#about-id"
+              class="mobile-navigation-link"
+              aria-label="link to about"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="#history-id"
+              class="mobile-navigation-link"
+              aria-label="link to history"
+              >History</a
+            >
+          </li>
+          <li>
+            <a
+              href="#portfolio-id"
+              class="mobile-navigation-link"
+              aria-label="link to portfolio"
+              >Portfolio</a
+            >
+          </li>
+          <li>
+            <a
+              href="#contacts"
+              class="mobile-navigation-link"
+              aria-label="link to contacts"
+              >Contacts</a
+            >
+          </li>
+        </ul>
+        <label
+          class="mobile-navigation-close"
+          for="toggler-id"
+          aria-label="open -close mobile-navigation menu"
+        >
+          <svg class="mobile-navigation-cross" aria-label="cross icon">
+            <use href="img/webp/sprites.svg#cross-icon"></use>
+          </svg>
+        </label>
+      </nav>
+    </div>
+
     <main aria-label="main">
       <section class="home" id="home-id" aria-label="home section">
         <div class="container">
@@ -90,7 +158,7 @@
             Ivan Konstantinovich Aivazovsky - Russian marine painter of Armenian
             origin, collector, philanthropist.
           </h3>
-          <p class="about-description-en" label="description en">
+          <p class="about-description-en">
             Being a world famous artist, Ivan Konstantinovich Aivazovsky
             preferred to live and work in his homeland - in the Crimea.
             Aivazovsky is best known for his seascapes, which make up more than
@@ -132,7 +200,7 @@
             class="portfolio-description"
             aria-label="picture one descripition"
           >
-            Зимний обоз в пути, 1857 г. | Winter wagon train on the way, 1857
+            Зимний обоз в пути, 1857 г.Winter wagon train on the way, 1857
           </p>
           <img
             src="img/webp/portfolio_3.webp"
@@ -163,11 +231,9 @@
     <footer class="contacts" aria-label="contacts section" id="contacts">
       <div class="container">
         <h2 class="contacts-title">Contacts</h2>
-        <button class="contacts-button">
-          <a target="_blank" href="https://ayvazovskiy.su" class="button-link"
-            >ayvazovskiy.su</a
-          >
-        </button>
+        <a class="contacts-button" target="_blank" href="https://ayvazovskiy.su"
+          >ayvazovskiy.su</a
+        >
         <address class="socials" aria-label="social-icons">
           <a
             href="https://www.youtube.com"

@@ -13,23 +13,19 @@
   width: 210px;
   height: 42px;
   background-color: var(--main-black);
-
   display: flex;
   justify-content: center;
   align-items: center;
   border: none;
   border-radius: 21px;
   margin: 75px auto 30px;
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--bg-main);
 }
 
 .contacts-button:hover {
   opacity: 0.8;
-}
-
-.button-link {
-  font-size: 24px;
-  font-weight: 500;
-  color: var(--bg-main);
 }
 
 .socials {
@@ -58,7 +54,7 @@
   width: 260px;
 }
 
-@media(max-width:480px) {
+@media (max-width: 480px) {
   .socials {
     gap: 20px;
   }
